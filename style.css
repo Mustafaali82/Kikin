@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Fonts */
+
+@font-face {
+    font-family: FirstFont;
+    src: url(Graphik/Graphik-Medium-Trial.otf);
+}
+/* Header Section Styling */
+
+header{
+    padding: 30px 40px;
+    background-color: #122315;
+    color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div{
+    display: flex;
+}
+
+
+header nav div ul{
+    display: flex;
+    gap: 30px;
+}
+
+header nav div img{
+    width: 100px;
+}
+
+header nav div ul li{
+    font-size: 14px;
+    font-family: FirstFont;
+    color: #f5f5f5;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+header nav div button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #55DD4A;
+    outline: none;
+    border: 1px;
+    font-size: 16px;
+    font-family: FirstFont;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login{
+    color: white;
+    background-color: #122315;
+    border: 1px solid rgba(255, 255, 255, 0.292);
+    margin-right: 20px;
+}
