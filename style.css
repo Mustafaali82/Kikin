@@ -29,6 +29,7 @@ header {
     color: white;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 header nav {
@@ -120,6 +121,60 @@ header nav div button {
 .hero-section img {
     width: 100%;
     margin-top: -86px;
+}
+
+/* Two Section Styling */
+
+.two{
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #F3EDE4;
+}
+
+.two-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img1{
+  position: relative;
+  top: 250px;
+  left: 250px;
+}
+
+.img2{
+    position: relative;
+   right: 120px;
+   bottom: 80px;
+}
+
+.img3{
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+
+.two-box h1{
+    font-size: 108px;
+    font-family: HeroSectionFont;
+    color: #122315;
+    line-height: 110px;
+    width: 900px;
+}
+
+.two-box p{
+    font-size: 18px;
+    font-family: SecondFont;
+    width: 700px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 /* Same Styling */
