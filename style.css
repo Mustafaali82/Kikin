@@ -125,16 +125,16 @@ header nav div button {
 
 /* Two Section Styling */
 
-.two{
+.two {
     display: flex;
     justify-content: space-between;
-    align-items:start;
+    align-items: start;
     padding-top: 100px;
     padding-bottom: 50px;
     background-color: #F3EDE4;
 }
 
-.two-box{
+.two-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,25 +142,25 @@ header nav div button {
     text-align: center;
 }
 
-.img1{
-  position: relative;
-  top: 250px;
-  left: 250px;
-}
-
-.img2{
+.img1 {
     position: relative;
-   right: 120px;
-   bottom: 80px;
+    top: 250px;
+    left: 250px;
 }
 
-.img3{
+.img2 {
+    position: relative;
+    right: 120px;
+    bottom: 80px;
+}
+
+.img3 {
     position: relative;
     right: 200px;
     top: 30px;
 }
 
-.two-box h1{
+.two-box h1 {
     font-size: 108px;
     font-family: HeroSectionFont;
     color: #122315;
@@ -168,13 +168,66 @@ header nav div button {
     width: 900px;
 }
 
-.two-box p{
+.two-box p {
     font-size: 18px;
     font-family: SecondFont;
     width: 700px;
     line-height: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+/* Three Section Styling */
+
+.three {
+    background-color: #F3EDE4;
+    padding: 60px 40px;
+}
+
+.three-box {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.three-box-heading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.three-box-heading span{
+    padding: 10px;
+    background-color: #55DD4A;
+    font-size: 18px;
+    border-radius: 50px;
+    font-family: FirstFont;
+}
+
+.three-box-heading h1{
+    font-size: 70px;
+    font-family: HeroSectionFont;
+    width: 400px;
+    margin-top: 30px;
+    line-height: 60px;
+}
+
+.three-box-heading p {
+    font-size: 18px;
+    font-family: SecondFont;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.three-box-image img {
+    width: 100%;
+}
+
+.border-remove{
+    border: none;
 }
 
 /* Same Styling */
