@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+    overflow-y: visible;
+}
+
 /* Fonts */
 
 @font-face {
@@ -418,7 +423,8 @@ input[type=range]:focus {
 /* Five Section Styling */
 
 .five {
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background-color: #73D3EB;
 }
 
@@ -430,6 +436,8 @@ input[type=range]:focus {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-top: 0 !important;
+    margin: 40px;
 }
 
 .five-box-heading {
@@ -452,6 +460,89 @@ input[type=range]:focus {
     font-family: SecondFont;
     color: white;
     width: 500px;
+}
+
+.five-box-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+}
+
+.five-box-two-child {
+    padding: 40px;
+    border: 0.5px solid;
+}
+
+.five-box-two-child h2 {
+    font-size: 37px;
+    margin-top: 30px;
+    font-family: HeroSectionFont;
+    letter-spacing: -1px;
+    line-height: 35px;
+    margin-bottom: 150px;
+}
+
+.five-box-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.six{
+    background-color: #122315;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.six-box-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.six-box-child h2{
+    text-align: center;
+    font-size: 77px;
+    color: #55DD4A;
+    line-height: 65px;
+    font-family: HeroSectionFont;
+    width: 951px;
+}
+
+.s1-img1{
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+
+.s1-img2{
+    position: relative;
+    right: 170px;
+    bottom: 70px;
+}
+
+.s1-img3{
+    position: relative;
+    right: 100px;
+    top: 100px;
+    transform: rotate(-45deg);
+}
+
+.s1-img4{
+  position: relative;
+  right: 50px;
+  transform: rotate(-50deg);
+}
+
+.s1-img5{
+    position: relative;
+    left: 40px;
+    top: 30px;
 }
 
 
