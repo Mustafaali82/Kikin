@@ -316,6 +316,36 @@ header nav div button {
     width: 230px;
 }
 
+
+input[type=range] {
+    -webkit-appearance: none;
+    background-color: gray;
+    border-radius: 50px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 10px;
+    background-color: gray;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #55DD4A;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline:none;
+}
+
+
 /* Same Styling */
 
 button {
