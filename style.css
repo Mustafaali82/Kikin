@@ -491,12 +491,14 @@ input[type=range]:focus {
     padding-bottom: 40px;
 }
 
+/* Six Section STyling */
+
 .six{
     background-color: #122315;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 100px 0;
+    padding: 150px 0;
     gap: 50px;
 }
 
@@ -512,6 +514,10 @@ input[type=range]:focus {
     line-height: 65px;
     font-family: HeroSectionFont;
     width: 951px;
+}
+
+.six-box-child img{
+    width: 170px;
 }
 
 .s1-img1{
@@ -530,13 +536,14 @@ input[type=range]:focus {
     position: relative;
     right: 100px;
     top: 100px;
-    transform: rotate(-45deg);
+    transform: rotate(-15deg);
 }
 
 .s1-img4{
   position: relative;
-  right: 50px;
-  transform: rotate(-50deg);
+  right: 30px;
+  transform: rotate(-20deg);
+  top: 20px;
 }
 
 .s1-img5{
@@ -545,7 +552,33 @@ input[type=range]:focus {
     top: 30px;
 }
 
+.six-box-child-3{
+    justify-content: space-evenly;
+}
 
+.s1-img6{
+    position: relative;
+    left: 60px;
+}
+
+.s1-img7{
+    position: relative;
+    right: 100px;
+    top: 120px;
+}
+
+.s1-img8{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    transform: rotate(10deg);
+}
+
+.s1-img9{
+    position: relative;
+    top: 80px;
+    right: 0px;
+}
 /* Same Styling */
 
 button {
