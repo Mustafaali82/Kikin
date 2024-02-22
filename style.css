@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow: hidden;
-    overflow-y: visible;
+body {
+
 }
 
 /* Fonts */
@@ -493,7 +492,7 @@ input[type=range]:focus {
 
 /* Six Section STyling */
 
-.six{
+.six {
     background-color: #122315;
     display: flex;
     justify-content: center;
@@ -502,12 +501,12 @@ input[type=range]:focus {
     gap: 50px;
 }
 
-.six-box-child{
+.six-box-child {
     display: flex;
     justify-content: space-between;
 }
 
-.six-box-child h2{
+.six-box-child h2 {
     text-align: center;
     font-size: 77px;
     color: #55DD4A;
@@ -516,69 +515,155 @@ input[type=range]:focus {
     width: 951px;
 }
 
-.six-box-child img{
+.six-box-child img {
     width: 170px;
 }
 
-.s1-img1{
+.s1-img1 {
     position: relative;
     left: 100px;
     top: 40px;
 }
 
-.s1-img2{
+.s1-img2 {
     position: relative;
     right: 170px;
     bottom: 70px;
 }
 
-.s1-img3{
+.s1-img3 {
     position: relative;
     right: 100px;
     top: 100px;
     transform: rotate(-15deg);
 }
 
-.s1-img4{
-  position: relative;
-  right: 30px;
-  transform: rotate(-20deg);
-  top: 20px;
+.s1-img4 {
+    position: relative;
+    right: 30px;
+    transform: rotate(-20deg);
+    top: 20px;
 }
 
-.s1-img5{
+.s1-img5 {
     position: relative;
-    left: 40px;
     top: 30px;
 }
 
-.six-box-child-3{
+.six-box-child-3 {
     justify-content: space-evenly;
 }
 
-.s1-img6{
+.s1-img6 {
     position: relative;
     left: 60px;
 }
 
-.s1-img7{
+.s1-img7 {
     position: relative;
     right: 100px;
     top: 120px;
 }
 
-.s1-img8{
+.s1-img8 {
     position: relative;
     top: 120px;
     left: 80px;
     transform: rotate(10deg);
 }
 
-.s1-img9{
+.s1-img9 {
     position: relative;
     top: 80px;
     right: 0px;
 }
+
+/* Footer Section STyling */
+footer {
+    background-image: url(Assets/fbg.svg);
+    background-color: #122315;
+    padding: 60px 40px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-box-one h1 {
+    font-size: 108px;
+    font-family: HeroSectionFont;
+    width: 900px;
+    line-height: 80px;
+    color: rgb(243, 237, 228);
+}
+
+.footer-box-one button {
+    margin-top: 40px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #566056;
+    color: white;
+}
+
+.footer-box-two {
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #122315;
+    box-shadow: 1px 20px 120px 203px #122315;
+}
+
+.footer-box-two-child{
+    display: flex;
+    flex-direction: column;
+  text-align: left;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-logo h3{
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: SecondFont;
+}
+
+.footer-logo a {
+    font-size: 30px;
+    font-family: SecondFont;
+    margin-left: 20px;
+    color: white;
+}
+
+.footer-link{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-box-two-child span{
+    font-size: 17px;
+    font-family: SecondFont;
+    margin-bottom: 10px;
+}
+
+.width-reduce{
+    width: 300px;
+    line-height: 30px;
+}
+
+.footer-box-two-child button{
+    background-color: rgba(255, 0, 0, 0);
+    border: 1px solid #566056;
+    color: white;
+}
+
 /* Same Styling */
 
 button {
