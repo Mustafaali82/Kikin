@@ -12,6 +12,11 @@
 }
 
 @font-face {
+    font-family: ThirdFont;
+    src: url(Graphik/Graphik-Light-Trial.otf);
+}
+
+@font-face {
     font-family: SecondFont;
     src: url(Graphik/Graphik-Regular-Trial.otf);
 }
@@ -199,7 +204,7 @@ header nav div button {
     flex-direction: column;
 }
 
-.three-box-heading span{
+.three-box-heading span {
     padding: 10px;
     background-color: #55DD4A;
     font-size: 18px;
@@ -207,7 +212,7 @@ header nav div button {
     font-family: FirstFont;
 }
 
-.three-box-heading h1{
+.three-box-heading h1 {
     font-size: 70px;
     font-family: HeroSectionFont;
     width: 400px;
@@ -226,8 +231,89 @@ header nav div button {
     width: 100%;
 }
 
-.border-remove{
-    border: none;
+/* Four Section Styling */
+
+.four {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    padding: 90px 50px;
+    gap: 50px;
+    background-color: #122315;
+}
+
+.four-box-heading h1 {
+    font-size: 108px;
+    font-family: HeroSectionFont;
+    line-height: 90px;
+    color: #F3EDE4;
+}
+
+.four-box-heading img {
+    width: 160px;
+}
+
+.f1-img {
+    position: relative;
+    left: 30px;
+    top: -5px;
+}
+
+.f2-img {
+    position: relative;
+    left: 60px;
+    bottom: 70px;
+}
+
+.f3-img {
+    margin-top: 30px;
+}
+
+.four-box-heading p {
+    font-size: 18px;
+    font-family: SecondFont;
+    color: white;
+    margin-top: 30px;
+}
+
+.four-box-heading button {
+    margin-top: 30px;
+}
+
+.four-box-pricing {
+    border: 1px solid #566056;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.invoice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.invoice h3 {
+    font-size: 18px;
+    font-family: ThirdFont;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.invoice span {
+    font-size: 18px;
+    font-family: SecondFont;
+    color: white;
+}
+
+.invoice img {
+    filter: invert(1);
+    vertical-align: middle;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.invoice input {
+    width: 230px;
 }
 
 /* Same Styling */
