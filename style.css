@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body {}
+
 
 /* Fonts */
 
@@ -781,15 +781,15 @@ footer {
     font-family: HeroSectionFont;
 }
 
-.tab button img{
+.tab button img {
     vertical-align: middle;
     margin-right: 10px;
     margin-top: -5px;
 }
 
 .tab button.active {
-   color: black;
-  }
+    color: black;
+}
 
 .tabcontent {
     float: left;
@@ -801,23 +801,32 @@ footer {
 
 .accordion {
     background-color: #F3EDE4;
-    color: #444;
+    color: #000000;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+
     text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
+    font-size: 32px;
+    font-family: HeroSectionFont;
+    border-bottom: 1px solid !important;
+    border-radius: 0;
+    padding-left: 0;
+    margin-bottom: 20px;
 }
 
 
 .panel {
-
+    padding: 18px;
     display: none;
-    background-color: white;
     overflow: hidden;
+    padding-left: 0;
+}
+
+.panel p {
+    font-size: 17px;
+    font-family: FirstFont;
+    line-height: 25px;
 }
 
 .accordion:after {
