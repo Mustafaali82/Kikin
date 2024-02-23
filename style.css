@@ -768,7 +768,7 @@ footer {
     float: left;
     background-color: #F3EDE4;
     width: 40%;
-    height: 700px;
+    height: 550px;
     padding: 37px;
 }
 
@@ -779,6 +779,7 @@ footer {
     text-align: left;
     font-size: 24px;
     font-family: HeroSectionFont;
+
 }
 
 .tab button img {
@@ -794,7 +795,7 @@ footer {
 .tabcontent {
     float: left;
     width: 60%;
-    height: 700px;
+    height: 550px;
     background-color: #F3EDE4;
     padding: 37px;
 }
@@ -805,14 +806,13 @@ footer {
     cursor: pointer;
     padding: 18px;
     width: 100%;
-
     text-align: left;
     font-size: 32px;
     font-family: HeroSectionFont;
-    border-bottom: 1px solid !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.305) !important;
     border-radius: 0;
     padding-left: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
@@ -830,12 +830,16 @@ footer {
 }
 
 .accordion:after {
-    content: '\02795';
-    /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
+    content: '\002B';
+    color: #000000;
     float: right;
     margin-left: 5px;
+    font-size: 30px;
+}
+
+.active.accordion::after {
+    content: "\2212";
+    /* Unicode character for "plus" sign (+) */
 }
 
 
