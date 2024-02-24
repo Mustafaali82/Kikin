@@ -40,3 +40,11 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+function myFunction() {
+  document.getElementById("none").style.display = "block";
+}
+
+function closeFunction() {
+  document.getElementById("none").style.display = "none";
+}

@@ -842,6 +842,50 @@ footer {
     /* Unicode character for "plus" sign (+) */
 }
 
+.humburger {
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    header {
+        padding: 20px;
+    }
+
+    #none {
+        display: none;
+    }
+
+    .humburger {
+        display: block;
+        background-color: #55DD4A;
+        width: 41px;
+        padding: 12px 10px;
+        border-radius: 64px;
+    }
+
+    header nav div ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #122315;
+        padding: 31px;
+        margin-left: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;    
+    }
+}
 
 /* Same Styling */
 
