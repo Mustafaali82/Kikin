@@ -883,7 +883,137 @@ footer {
     header nav div {
         display: flex;
         justify-content: space-between;
-        width: 100%;    
+        width: 100%;
+    }
+
+    .hero-section {
+        padding-top: 40px;
+    }
+
+    .hero-section h1 {
+        width: 100%;
+        font-size: 71px;
+        line-height: 61px;
+    }
+
+    .hero-section p {
+        width: 100%;
+        font-size: 16px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .hero-section img {
+        margin-top: 0;
+    }
+
+    .two {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .two-box h1 {
+        width: 100%;
+        font-size: 69px;
+        line-height: 62px;
+        padding: 20px;
+    }
+
+    .two-box p {
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .two-box {
+        display: unset;
+    }
+
+    .two-box img {
+        width: 120px;
+        max-width: 100%;
+    }
+
+    .img1 {
+        position: unset;
+    }
+
+    .img2 {
+        position: unset;
+    }
+
+    .img3 {
+        position: unset;
+    }
+
+    .two-box img {
+        display: none;
+    }
+
+    .three {
+        padding: 20px;
+    }
+
+    .three-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three-box-heading p {
+        margin-top: 20px;
+    }
+
+    .four {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .four-box-heading h1 {
+        width: 100%;
+        font-size: 66px;
+        line-height: 64px;
+    }
+
+    .four-box-heading img {
+        display: none;
+    }
+
+    .four-box-heading {
+        text-align: center;
+    }
+
+    .invoice input {
+        width: auto;
+    }
+
+    .monthly {
+        display: unset;
+    }
+
+    .monthly h1 {
+        text-align: end;
+    }
+
+    .five-box {
+        margin: 20px;
+    }
+
+    .five-box {
+        background-size: cover;
+        background-position: center;
+        height: 600px;
+    }
+
+    .five-box-heading h1 {
+        width: 100%;
+        font-size: 70px;
+        line-height: 64px;
+    }
+
+    .five-box-description p {
+        width: 100%;
     }
 }
 
