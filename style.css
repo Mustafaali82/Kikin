@@ -9,6 +9,11 @@
 /* Fonts */
 
 @font-face {
+    font-family: FrothFont;
+    src: url(Fonts/DeaconCondensedTest-BlackOblique-BF63c8afdb5e14a.otf);
+}
+
+@font-face {
     font-family: FirstFont;
     src: url(Graphik/Graphik-Medium-Trial.otf);
 }
@@ -847,6 +852,11 @@ footer {
 }
 
 @media screen and (max-width:767px) {
+
+    body {
+        overflow-x: hidden
+    }
+
     header {
         padding: 20px;
     }
@@ -1014,6 +1024,170 @@ footer {
 
     .five-box-description p {
         width: 100%;
+    }
+
+    .five-box-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .five-box-two-child h2 {
+        width: 100%;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    .five-box-two-child {
+        padding: 20px;
+    }
+
+    .five-box-three img {
+        padding: 20px;
+    }
+
+    .five-box-three {
+        top: 0;
+        left: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        white-space: nowrap;
+        animation: scroll 10s linear infinite;
+        display: unset;
+    }
+
+    @keyframes scroll {
+        0% {
+            left: 0%;
+        }
+
+        100% {
+            left: -100%
+        }
+    }
+
+    .s1-img4 {
+        display: none;
+    }
+
+    .s1-img5 {
+        display: none;
+    }
+
+    .s1-img7 {
+        display: none;
+    }
+
+    .s1-img9 {
+        display: none;
+    }
+
+    .six-box-child h2 {
+        width: 100%;
+        font-size: 45px;
+        line-height: 43px;
+    }
+
+    .six {
+        padding: 30px 20px;
+    }
+
+    .s1-img2 {
+        display: none;
+    }
+
+    .six-box-child img {
+        width: 100px;
+    }
+
+    .s1-img1 {
+        position: unset;
+    }
+
+    .s1-img3 {
+        position: unset;
+    }
+
+    .s1-img6 {
+        position: unset;
+    }
+
+    .s1-img8 {
+        position: unset;
+    }
+
+    .six-box-child-3 {
+        justify-content: space-between;
+    }
+
+    .swiper {
+        padding: 30px 0;
+    }
+
+    .swiper-slide {
+        display: unset;
+        padding-left: 12px;
+    }
+
+    .slider-heading h1 {
+        width: 100%;
+        font-size: 66px;
+        line-height: 63px;
+        margin-top: 25px;
+    }
+
+    .slider-heading p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .slider-button {
+        margin-left: 200px;
+        margin-top: 47px;
+    }
+
+    .tabcontent {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tab {
+        float: unset;
+        width: 100%;
+        height: 100%;
+        padding: 13px;
+    }
+
+    .eight h1 {
+        padding-left: 33px;
+        font-size: 85px;
+    }
+
+    footer {
+        padding: 20px;
+        background-size: cover;
+        background-position: left
+    }
+
+    .footer-box-one h1 {
+        width: 100%;
+        font-size: 65px;
+        line-height: 64px;
+    }
+
+    .footer-box-two {
+        flex-direction: column;
+        box-shadow: 13px 24px 67px 105px #122315;
+        gap: 40px;
+    }
+
+    .footer-logo {
+        justify-content: start;
+    }
+
+    .footer-link {
+        flex-direction: column;
     }
 }
 

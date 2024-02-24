@@ -48,3 +48,4 @@ function myFunction() {
 function closeFunction() {
   document.getElementById("none").style.display = "none";
 }
+
