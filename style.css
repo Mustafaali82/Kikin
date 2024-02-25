@@ -902,7 +902,7 @@ footer {
 
     .hero-section h1 {
         width: 100%;
-        font-size: 71px;
+        font-size: 67px;
         line-height: 61px;
     }
 
@@ -925,7 +925,7 @@ footer {
 
     .two-box h1 {
         width: 100%;
-        font-size: 69px;
+        font-size: 64px;
         line-height: 62px;
         padding: 20px;
     }
@@ -934,6 +934,12 @@ footer {
         width: 100%;
         padding: 20px;
         margin: 0;
+    }
+
+    .three-box-heading h1 {
+        width: 100%;
+        font-size: 32px;
+        margin-top: 20px;
     }
 
     .two-box {
@@ -968,10 +974,11 @@ footer {
     .three-box {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 
     .three-box-heading p {
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .four {
@@ -982,8 +989,24 @@ footer {
 
     .four-box-heading h1 {
         width: 100%;
-        font-size: 66px;
-        line-height: 64px;
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .pricing {
+        padding: 20px;
+    }
+
+    .invoice h3 {
+        font-size: 14px;
+    }
+
+    .invoice img {
+        margin-right: 0 !important;
+    }
+
+    .invoice span {
+        font-size: 14px;
     }
 
     .four-box-heading img {
@@ -1018,12 +1041,13 @@ footer {
 
     .five-box-heading h1 {
         width: 100%;
-        font-size: 70px;
+        font-size: 68px;
         line-height: 64px;
     }
 
     .five-box-description p {
         width: 100%;
+        font-size: 16px;
     }
 
     .five-box-two {
@@ -1033,8 +1057,13 @@ footer {
 
     .five-box-two-child h2 {
         width: 100%;
-        font-size: 34px;
+        font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .slider-image img {
+        max-width: 100%;
+        width: 385px;
     }
 
     .five-box-two-child {
@@ -1131,8 +1160,8 @@ footer {
 
     .slider-heading h1 {
         width: 100%;
-        font-size: 66px;
-        line-height: 63px;
+        font-size: 58px;
+        line-height: 52px;
         margin-top: 25px;
     }
 
@@ -1167,13 +1196,13 @@ footer {
     footer {
         padding: 20px;
         background-size: cover;
-        background-position: left
+        background-position: right;
     }
 
     .footer-box-one h1 {
         width: 100%;
-        font-size: 65px;
-        line-height: 64px;
+        font-size: 54px;
+        line-height: 54px;
     }
 
     .footer-box-two {
