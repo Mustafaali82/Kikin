@@ -1310,6 +1310,12 @@ footer {
         margin: 0;
     }
 
+    .slider-image img {
+        position: relative;
+        width: 100%;
+        height: 500px;
+    }
+
     .two-box {
         display: unset;
     }
@@ -1504,12 +1510,13 @@ footer {
     .swiper-slide {
         display: unset;
         padding-left: 12px;
+        padding-right: 12px;
     }
 
     .slider-heading h1 {
         width: 100%;
-        font-size: 66px;
-        line-height: 63px;
+        font-size: 73px;
+        line-height: 71px;
         margin-top: 25px;
     }
 
@@ -1557,6 +1564,7 @@ footer {
         flex-direction: column;
         box-shadow: 13px 24px 67px 105px #122315;
         gap: 40px;
+      
     }
 
     .footer-logo {
